@@ -1,0 +1,50 @@
+.lists-container {
+  width: 100%; /* Responsive width */
+  max-width: 300px; /* Maximum width for larger screens */
+  background-color: #090A25; /* Dark background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  position: sticky;
+  top: 20px;
+  overflow-y: auto; /* Vertical scrolling only */
+  max-height: calc(100vh - 80px); /* Adjusted for better compatibility */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Inner spacing */
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Additional hover effect */
+.lists-container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollbar styling for webkit browsers */
+.lists-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.lists-container::-webkit-scrollbar-thumb {
+  background-color: #2F1224; /* Darker scrollbar thumb */
+  border-radius: 4px;
+}
+
+.lists-container::-webkit-scrollbar-track {
+  background-color: #15120E; /* Lighter track color */
+}
+
+/* Example of text color using provided colors */
+.lists-container h2 {
+    color: #23010B; /* Header color */
+}
+
+.lists-container p {
+    color: #211924; /* Paragraph text color */
+}
+
+.stock-name {
+  font-weight: bold; /* Make stock name bold */
+}
+
+.stock-price {
+  color: #4CAF50; /* Green color for price */
+}
+

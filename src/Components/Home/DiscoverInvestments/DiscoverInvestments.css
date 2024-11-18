@@ -1,0 +1,28 @@
+.discover-investments {
+  margin: 20px;
+  text-align: left;
+  color: #ffffff; /* Light text color for readability */
+}
+
+.investment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.investment-options span {
+  background-color: #211924; /* Dark background for options */
+  color: #f5f5f5; /* Light text color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for all changes */
+
+}
+
+.investment-options span:hover {
+  background-color: #090A25; /* Darker background on hover */
+  cursor: pointer;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}

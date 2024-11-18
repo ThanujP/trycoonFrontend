@@ -1,0 +1,136 @@
+/* AlpacaNewsComponent.css */
+
+.alpaca-news-container {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E5E5E5;
+    color: #14213D;
+}
+
+.title {
+    color: #14213D;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.error-message {
+    background-color: #FFA07A;
+    color: #14213D;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.loading-message {
+    color: #14213D;
+    text-align: center;
+    font-style: italic;
+}
+
+.stock-data-section,
+.market-data-card,
+.asset-info-section {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(20, 33, 61, 0.1);
+}
+
+h2 {
+    color: #14213D;
+    border-bottom: 2px solid #14213D;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #14213D;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #14213D;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #14213D;
+    color: #E5E5E5;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1c2b4a;
+}
+
+button:disabled {
+    background-color: #7d8597;
+    cursor: not-allowed;
+}
+
+.stock-data-card,
+.asset-info-card {
+    background-color: #f8f9fa;
+    border: 1px solid #14213D;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.stock-data-card h3,
+.asset-info-card h3 {
+    color: #14213D;
+    margin-top: 0;
+}
+
+.company-logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #14213D;
+    color: #E5E5E5;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #14213D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
